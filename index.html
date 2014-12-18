@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="checkbox.css">
     <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+    <script src="jquery-1.11.1.min.js"></script>
 </head>
 <body>
 <script src="http://d3js.org/d3.v2.min.js?2.10.1"></script>
@@ -12,12 +14,22 @@
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
 <div id="main_container">
-    <h2>Бабки профкому по факультетах</h2><br/>
-    <svg class="chart"></svg>
+    <h2>Гроші профкому по факультетах</h2><br/>
 
-    <p>Надходження - сумма профнесків, зібраних з факультету за рік.</p>
-    <p>Витрати - сумма, що повернулася на факультет (у вигляді матеріальної допомоги, премій профактиву(!) або кешу на проведення заходів)</p>
-    <p>Всі суми в гривнях</p>
+    <div id="order_select">
+        <label>Сортувати за:</label><br/>
+        <input type="radio" name="order_cat" id="radio1" class="css-checkbox" value="income" checked="checked"/><label for="radio1" class="css-label radGroup1">надходженнями</label>
+        <input type="radio" name="order_cat" id="radio2" class="css-checkbox" value="outcome"/><label for="radio2" class="css-label radGroup1">витратами</label>
+        <input type="radio" name="order_cat" id="radio3" class="css-checkbox" value="out_rate"/><label for="radio3" class="css-label radGroup1">%</label>
+    </div>
+    <div id="chart_container">
+        <svg class="chart"></svg>
+    </div>
+
+    <p><span class="income">Надходження</span> - сумма профнесків, зібраних з факультету за рік.</p>
+    <p>Витрати - сумма, що повернулася на факультет (у вигляді <span class="mat_help">матеріальної допомоги</span>, <span class="prem">премій</span> профактиву(!) або грошей на проведення <span class="events">заходів</span>)</p>
+    <!--<p>Всі суми в гривнях</p>-->
+    <p></p>
 </div>
 
 <script src="main.js"></script>

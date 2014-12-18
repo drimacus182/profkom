@@ -25,7 +25,7 @@ body {
 #main_container {
     margin: 0 auto;
     text-align: left;
-    width: 900px;
+    width: 960px;
 }
 
 svg {
@@ -78,11 +78,6 @@ svg {
     text-align: center;
 }
 
-
-/*{*/
-    /*color: */
-/*}*/
-
 /* Style northward tooltips differently */
 .d3-tip.n:after {
     margin: -1px 0 0 0;
@@ -93,4 +88,49 @@ svg {
 .center {
     margin: 0 auto;
     text-align: center;
+}
+
+#tip_table td {
+    padding: 0;
+}
+
+.col1 {
+    text-align: right;
+}
+
+.col2 {
+    text-align: left;
+}
+
+.income {
+    color: teal;
+    fill:teal;
+}
+
+#order_select {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    margin-left: 810px;
+    margin-top: 30px;
+    background: white;
+    border-radius: 5px;
+    font-size: 12px;
+    float: right;
+    padding: 5px;
+}
+
+.mat_help {
+    color: green;
+    fill:green;
+}
+
+.prem {
+    color: orange;
+    fill: orange;
+}
+
+.events {
+    color: orangered;
+    fill: orangered;
 }
