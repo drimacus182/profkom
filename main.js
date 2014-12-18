@@ -60,7 +60,7 @@ d3.select("#main_container")
 //    .on('mouseleave', tip.hide);
 
 
-d3.json("/2.json", function (loaded_data) {
+d3.json("2.json", function (loaded_data) {
     $("input[name=order_cat]:radio").change(function () {
         tip.hide();
         drawGraph(reorderData(loaded_data));
