@@ -1,0 +1,396 @@
+[{
+	"name": "ВПІ",
+	"income" : 30902.64,
+	"outcome": {
+		"mat_help": {
+			"count": 8,
+			"val": 3650
+		},
+		"prem": {
+			"count": 4,
+			"val": 2250
+		},
+		"events": 676.12,
+		"total": 6576.12
+	}
+},
+
+{
+	"name": "ЗФ",
+	"income": 16534.09,
+	"outcome": {
+	    "total": 0
+	}
+},
+
+{
+    "name": "ІЕЕ",
+    "income": 55544.14,
+    "outcome": {
+	    "mat_help": {
+	        "count": 13,
+	        "val": 6500
+	    },
+	    "prem": {
+	        "count": 4,
+	        "val": 1700
+	    },
+	    "events": 217.5,
+	    "total": 8417.5
+    }
+},
+
+{
+    "name": "ІПСА",
+    "income": 40825.85,
+    "outcome": {
+        "mat_help": {
+            "count": 3,
+            "val": 1800
+        },
+        "prem": {
+            "count": 5,
+            "val": 2550
+        },
+        "events": 0,
+        "total": 4350
+    }
+},
+
+{
+    "name": "ІТС",
+    "income": 16000.08,
+    "outcome": {
+        "mat_help": {
+            "count": 6,
+            "val": 3050
+        },
+        "prem": 0,
+        "events": 0,
+        "total": 3050
+    }
+},
+
+{
+    "name": "ІФФ",
+    "income": 34564.68,
+
+    "outcome": {
+        "mat_help": {
+            "count": 8,
+            "val": 3700
+        },
+        "prem": {
+            "count": 2,
+        	"val": 808
+        },
+        "events":0,
+        "total": 4508
+    }
+},
+
+{
+    "name": "ІХФ",
+    "income": 35582.99,
+
+    "outcome": {
+        "mat_help": {
+            "count": 2,
+            "val": 1800
+        },
+        "prem": {
+            "count": 1,
+            "val": 300
+        },
+        "events": 952,
+        "total": 3052
+    }
+},
+
+{
+    "name": "ММІ",
+    "income": 68681.94,
+    "outcome": {
+        "mat_help": {
+            "count":21,
+            "val": 11220
+        },
+        "prem": {
+            "count": 23,
+            "val": 17211
+        },
+        "events": 607.28,
+        "total": 29038.28
+    }
+},
+
+{
+    "name": "ФБМІ",
+    "income": 24633.04,
+    "outcome": {
+        "mat_help": {
+            "count": 3,
+            "val": 1900
+        },
+        "prem": {
+            "count": 7,
+            "val":3850
+        },
+        "events": 268.75,
+        "total": 6018.75
+    }
+},
+
+{
+    "name": "ПБФ",
+    "income": 36159.64,
+    "outcome": {
+        "mat_help": {
+            "count": 14,
+        	"val": 5850
+        },
+        "prem": {
+            "count": 1,
+            "val": 150
+        },
+        "events": 694.28,
+        "total": 6694.28
+    }
+},
+
+{
+    "name": "РТФ",
+        "income":	15661.65,
+        "outcome": {
+            "mat_help": {
+                "count": 15,
+                "val": 7500
+            },
+            "prem": {
+                "count":1,
+                "val": 250
+            },
+            "events": 0,
+            "total": 7750
+        }
+},
+
+{
+    "name": "ТЕФ",
+    "income": 54754.64,
+    "outcome": {
+        "mat_help": {
+            "count": 15,
+            "val": 7800
+        },
+        "prem": {
+            "count": 12,
+            "val": 6280
+        },
+        "events": 3019.5,
+    	"total": 17099.5
+    }
+},
+
+{
+    "name": "ФАКС",
+    "income": 23538.83,
+    "outcome": {
+	    "mat_help": {
+	        "count": 4,
+	        "val": 2000
+	    },
+	    "prem": {
+	        "count": 1,
+	        "val": 150
+	    },
+	    "events": 572.4,
+	    "total": 2722.4
+    }
+},
+
+{
+    "name": "ФБТ",
+    "income": 18243.32,
+    "outcome": {
+        "mat_help": {
+            "count": 12,
+            "val": 7100
+        },
+        "prem": {
+            "count": 3,
+            "val": 1650
+        },
+        "events": 952,
+        "total": 9702
+    }
+},
+
+{
+    "name": "ФЕА",
+    "income": 14978.72,
+    "outcome": {
+        "mat_help": {
+            "count": 1,
+            "val": 1200
+        },
+        "prem": {
+            "count": 1,
+            "val": 150
+        },
+        "events": 499.8,
+        "total": 1849.8
+    }
+},
+
+{
+    "name": "ФЕЛ",
+    "income": 62888.48,
+    "outcome": {
+        "mat_help": {
+            "count": 6,
+            "val": 2800
+        },
+        "prem": {
+            "count": 6,
+            "val": 3002
+        },
+        "events": 204,
+        "total": 6006
+    }
+},
+
+{
+    "name": "ФІОТ",
+    "income": 54837.42,
+    "outcome": {
+        "mat_help": {
+            "count": 18,
+            "val": 8200
+        },
+        "prem": {
+            "count": 2,
+            "val": 800
+        },
+        "events": 0,
+        "total": 9000
+    }
+},
+
+{
+    "name": "ФЛ",
+    "income": 13371.96,
+    "outcome": {
+        "mat_help": {
+            "count": 3,
+            "val": 1500
+        },
+        "prem": {
+            "count": 5,
+            "val": 1050
+        },
+        "events": 213.6,
+        "total": 2763.6
+    }
+},
+
+{
+    "name": "ФММ",
+    "income": 35208.49,
+    "outcome": {
+        "mat_help": {
+            "count": 12,
+            "val": 5550
+        },
+        "prem": {
+            "count": 1,
+            "val": 350
+        },
+        "events": 0,
+        "total": 5900
+    }
+},
+
+{
+    "name": "ФМФ",
+    "income": 21394.18,
+    "outcome": {
+        "mat_help": {
+            "count": 6,
+            "val": 2100
+        },
+        "prem": {
+            "count": 6,
+            "val": 2242
+        },
+        "events": 150,
+        "total": 4492
+    }
+},
+
+{
+    "name": "ФПМ",
+    "income": 23327,
+    "outcome": {
+        "mat_help": {
+            "count": 4,
+            "val": 1700
+        },
+        "prem": {
+            "count": 2,
+            "val": 450
+        },
+        "events": 0,
+        "total": 2150
+    }
+},
+
+{
+    "name": "ФСП",
+    "income": 20318.55,
+    "outcome": {
+        "mat_help": {
+            "count": 3,
+            "val": 1800
+        },
+        "prem": 0,
+        "events": 96.25,
+        "total": 1896.25
+    }
+},
+
+{
+    "name": "ФТІ",
+    "income": 27505.51, 
+    "outcome": {
+        "mat_help": {
+            "count": 8,
+            "val": 4200 
+        },
+        "prem": {
+            "count": 2,
+            "val": 650 
+        },
+        "events": 1316.15,
+        "total": 6166.15
+    }
+},
+
+{
+    "name": "ХТФ",
+    "income": 29322.17, 
+    "outcome": {
+        "mat_help": {
+            "count": 10,
+            "val": 5500 
+        },
+        "prem": {
+            "count": 1,
+            "val": 150 
+        },
+        "events": 1876.95,
+        "total": 7526.95
+    }
+}
+
+]
