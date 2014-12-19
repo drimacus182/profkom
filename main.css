@@ -12,7 +12,7 @@ html, body {
 }
 h2 {
     font-family: "PT Sans Caption", Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     text-transform: uppercase;;
 }
 
@@ -102,11 +102,6 @@ svg {
     text-align: left;
 }
 
-.income {
-    color: teal;
-    fill:teal;
-}
-
 #order_select {
     position: absolute;
     display: inline-block;
@@ -118,6 +113,24 @@ svg {
     font-size: 12px;
     float: right;
     padding: 5px;
+}
+
+.income {
+    color: teal;
+    fill:teal;
+}
+
+.income:hover {
+    fill: steelblue;
+}
+
+.chart .outcome {
+    fill: yellow;
+    opacity: 0.0;
+}
+
+.chart .outcome:hover {
+    opacity: 0.4
 }
 
 .mat_help {
@@ -134,3 +147,18 @@ svg {
     color: orangered;
     fill: orangered;
 }
+
+a:link, a:visited {
+    color:#1FA0AE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+#notes {
+    font-size: 10px;
+}
+

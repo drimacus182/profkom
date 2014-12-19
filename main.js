@@ -10,7 +10,12 @@ var chart = d3.select(".chart")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 chart.append("g")
-    .attr("class", "y axis");
+    .attr("class", "y axis")
+    .append("text")
+    .attr("class", "caption")
+    .attr("x", -35)
+    .attr("y", -7)
+    .text("тис. грн");
 chart.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + h + ")");
@@ -89,7 +94,7 @@ function drawGraph(dataset) {
         .orient("right")
         .ticks(10)
         .tickSize(w)
-        .tickFormat(d3.format("s"));
+        .tickFormat(function (d) {return d3.format("s")(d).replace('k', '');});
 
     reDrawAxisY(chart, yAxis);
 
@@ -108,9 +113,6 @@ function drawGraph(dataset) {
 
     chart.selectAll(".events")
         .attr("y", function(d) { return y(d.outcome.total);});
-
-    chart.selectAll(".outcome")
-        .attr("opacity", "0.0");
 
     chart.selectAll(".income, .outcome")
         .on('mouseover', tip.show);
@@ -137,7 +139,7 @@ function reDrawAxisY(chart, yAxis) {
         .selectAll("g")
         .classed("minor", true);
     gy
-        .selectAll("text")
+        .selectAll("text:not(.caption)")
         .attr("x", -5)
         .style("text-anchor", "end");
 }

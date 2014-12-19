@@ -14,7 +14,8 @@
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
 <div id="main_container">
-    <h2>Гроші профкому по факультетах</h2><br/>
+    <h2 style="text-align: center">Звіт профкому по факультетах за 2014 рік<sup><a href="#note1">*</a></sup></h2>
+    <p></p><br/>
 
     <div id="order_select">
         <label>Впорядкувати за:</label><br/>
@@ -26,10 +27,14 @@
         <svg class="chart"></svg>
     </div>
 
-    <p><span class="income">Надходження</span> - сумма профнесків, зібраних з факультету за рік.</p>
-    <p>Витрати - сумма, що повернулася на факультет (у вигляді <span class="mat_help">матеріальної допомоги</span>, <span class="prem">премій</span> профактиву(!) або грошей на проведення <span class="events">заходів</span>)</p>
-    <!--<p>Всі суми в гривнях</p>-->
-    <p></p>
+    <p><span class="income">Надходження</span>&nbsp;&mdash;&nbsp;сумма профнесків, зібраних з&nbsp;факультету за&nbsp;рік<sup><a href="#note1">*</a></sup>.</p>
+    <p>Витрати&nbsp;&mdash; сумма, що&nbsp;повернулася на&nbsp;факультет (у&nbsp;вигляді <span class="mat_help">матеріальної допомоги</span>, <span class="prem">премій</span> профактиву(!) або грошей на проведення <span class="events">заходів</span>)</p>
+    <!--<br/>-->
+    <div id="notes">
+        <p id="note1"><sup>*</sup>&nbsp;за період: 01.01.2014 - 31.10.2014</p>
+        <p>За даними <a href="http://studprofkom.kpi.ua/news/2508">http://studprofkom.kpi.ua/news/2508</a></p>
+    </div>
+
 </div>
 
 <script src="main.js"></script>
